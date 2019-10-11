@@ -1,0 +1,256 @@
+/***** Body en text van HTML element *****/
+
+body {
+    /*background-image: url(images/cake-1850011_1920.jpg);*/
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: Poppins, sans-serif;
+    color: black;
+    margin: 0 0.5em;
+}
+
+h1:hover {
+    color: #2f58ae;
+}
+
+p {
+    font-family: Fira sans, sans-serif;
+}
+
+
+
+/***** header en navigatie elementen *****/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo {
+    width: 5em;
+    cursor: pointer;
+    margin: 0;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+li:first-child {
+    background-color: #2f58ae;
+    ;
+}
+
+li:nth-of-type(2) {
+    margin-left: auto;
+
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+a:hover {
+    color: #2f58ae;
+}
+
+
+
+/*****searchbar*****/
+
+form.search {
+    margin: 1em;
+    display: flex;
+    min-width: 25em;
+    width: 100%;
+}
+
+input {
+    height: 2em;
+    width: 100%;
+    padding: 1em;
+}
+
+button {
+    width: 6em;
+    color: white;
+    background-color: #2f58ae;
+    border: none;
+}
+
+
+
+
+
+/***** main *****/
+
+img {
+    width: 100%;
+}
+
+article {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 2em;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+article h2 {
+    margin-left: 1em;
+}
+
+
+article h2:hover {
+    color: #2f58ae;
+}
+
+article p {
+    margin: 0 1em;
+    margin-bottom: -1em;
+}
+
+
+
+
+/***** footer van de body *****/
+
+footer {
+    background-color: #333;
+    padding: 3em;
+    color: white;
+}
+
+.footer {
+    width: auto;
+    display: inline-block;
+    margin-left: -3em;
+}
+
+.footer li {
+    cursor: pointer;
+    margin-left: 1em;
+    font-weight: 300;
+}
+
+.footer li:hover {
+    background-color: #222222;
+}
+
+.footer li:first-child {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #333;
+}
+
+footer p {
+    margin-left: -2em
+}
+
+
+
+/***** Tablet grootte *****/
+
+@media (min-width:40em) {
+    body {
+        background-image: url(images/cake-1850011_1920.jpg);
+    }
+    header form.search {
+        width: auto;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main h2 {
+        grid-column: 1/3;
+
+    }
+
+    main form {
+        grid-column: 1/2;
+        width: 80%;
+
+    }
+
+}
+
+
+
+/***** log in pagina *****/
+
+main #titel {
+    margin-left: 0.6em;
+}
+
+main form {
+    padding: 1em;
+}
+
+main p{
+    margin-left: 1.5em;
+    font-weight: 500;
+}
+
+main #vergeten{
+    text-align: center;
+    margin-right: 3em;
+    font-weight: 400;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+main #vergeten:hover{
+    color: #2f58ae;
+}
+
+
+main form input {
+    width: 80%;
+    height: 0.5em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+main form .submit {
+    color: white;
+    background-color: #2f58ae;
+    width: 86%;
+    padding-bottom: 2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/***** Tablet grootte *****/
+
+@media (min-width:40em) {
+  /*  main {
+        color: pink;
+    } */
+
+}
