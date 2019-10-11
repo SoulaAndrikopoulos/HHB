@@ -7,4 +7,5 @@ https://soulaandrikopoulos.github.io/HHB/HHB/index.html
 
 Versie 2:
 De mobile versie van de website, verfijnd
+
 https://soulaandrikopoulos.github.io/HHB/HHB%202/index.html
