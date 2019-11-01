@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heel Holland Bakt</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="images/download.jpeg" />
+</head>
+
+
+<body>
+    <header>
+        <!-- navigatie van HHB -->
+        <nav>
+            <ul>
+                <li> <a href="index.html">
+                  <img id=logo src="images/download.jpeg" alt="">
+                </a></li>
+                <li><a href="">recepten</a>
+                </li>
+                <li><a href="">workshops</a>
+                </li>
+                <li><a href="form.html">inloggen</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Zoekbalk van de pagina -->
+        <form class="search">
+            <button type="submit">Zoek</button>
+            <input type="text" name="box" placeholder="Zoek favoriete recepten...">
+        </form>
+
+    </header>
+    <main id="inlogpagina">
+        <h2 id="titel">Inloggen</h2>
+
+<!-- login formulieren van de HHB pagina, het eerste formulier is voor de bestaande gebruiker en het tweede formulier voor de nieuwe gebruiker -->
+        <form id="login">
+            <p>Login voor bestaande klanten</p>
+            <label for="mail">E-mailadres</label>
+            <input type="email" id="mail" placeholder="Uw e-mailadres" required>
+            <label for="ww">Wachtwoord</label>
+            <input type="password" id="ww" placeholder="Uw wachtwoord" required>
+            <input class="submit" type="submit" value="Inloggen">
+            <p id="vergeten">Wachtwoord vergeten?</p>
+        </form>
+
+        <form id="email">
+            <p>Nieuw bij Heel Holland Bakt?</p>
+            <label for="maill">E-mailadres</label>
+            <input type="email" id="maill" placeholder="Uw e-mailadres" required>
+            <input class="submit" type="submit" value="Maak een account aan">
+        </form>
+
+<!-- in de formulieren wordt er gebruik gemaakt van het element required -->
+   
+    </main>
+
+    <!-- footer met navigatie element en copyrights -->
+    <footer>
+        <ul class="footer">
+            <li>Overzicht</li>
+            <li>Privacyverklaring</li>
+            <li>Cookies instellen</li>
+            <li>Algemene voorwaarden</li>
+            <li>Sitemap</li>
+        </ul>
+        <p>© Copyright 2019 | Soula Andrikopoulos | Frontend HER </p>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- BRONNEN:
+https://www.developerdrive.com/how-to-create-a-beautiful-login-form/ 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
