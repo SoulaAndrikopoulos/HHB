@@ -21,3 +21,6 @@ Versie 5/6:
 Semantiek en states
 https://soulaandrikopoulos.github.io/HHB/HHB%205/form.html
 https://soulaandrikopoulos.github.io/HHB/HHB%206/form.html
+
+Versie 7:
+Micro interactie filter/sorteer
