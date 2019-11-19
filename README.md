@@ -25,3 +25,7 @@ https://soulaandrikopoulos.github.io/HHB/HHB%206/form.html
 Versie 7:
 Micro interactie filter/sorteer
 https://soulaandrikopoulos.github.io/HHB/Heel%20holland%20bakt/
+
+Versie 8:
+Deze versie bevat JS interacties zoals het filteren en sorteren en de download knop op de pagina (recepten.html) die verandert van source. Verder is er nog gewerkt aan de CSS van de pagina's en is de pagina recepten.html toegevoegd 
+
