@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heel Holland Bakt</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="images/download.jpeg" />
+</head>
+
+<body>
+    <!-- Hier wordt de GIF ingeladen wanneer de pagina aan het laden is. -->
+    <div class="loader hidden">
+        <img src="images/Spinner-1.4s-200px.gif" alt="Recepten aan het laden..." />
+        <p>Even geduld...</p>
+    </div>
+    <!-- navigatie van de website -->
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">
+                  <img id=logo src="images/download.jpeg" alt="">
+                </a></li>
+                <li><a href="recepten.html">recepten</a>
+                </li>
+                <li><a href="">workshops</a>
+                </li>
+                <li><a href="form.html">inloggen</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Zoekbalk van de pagina -->
+        <form class="search">
+            <button type="submit">Zoek</button>
+            <input id="search" type="text" name="box" placeholder="Zoek favoriete recepten...">
+        </form>
+
+    </header>
+
+    <main id="recepten">
+        <!-- main content van de website: workshops en recepten -->
+        <h2 id="titel">Bakrecepten</h2>
+        <article>
+            <img id=banner src="images/apple-pie-3723444_1920.jpg" alt="">
+            <h2>Perentaart</h2>
+            <p>Deze perentaart is simpel te bereiden en heeft bovendien een heerlijke vulling  van amandel en peren.</p>
+            <img id="download" src="images/download.png" alt="" class="download" onclick="changeImage()">
+        </article>
+      
+
+        <article>
+            <img src="images/quality-cake-production-hero.jpg" alt="">
+            <h2>Chocolade mousse taart</h2>
+            <p>Een heerlijk taart van chocolade mousse voor de echt sweet tooth...</p>
+               <img src="images/download.png" alt="" class="download">
+        </article>
+
+        <article>
+            <img src="images/apple-pie-bake-baking-236749.jpg" alt="">
+            <h2>Appeltaart</h2>
+            <p>Oma's recept voor de beste appeltaart! Simpel te bereiden, voor de absolute beginner.</p>
+               <img src="images/download.png" alt="" class="download">
+        </article>
+
+        <article>
+            <img src="images/bakery-baking-blueberries-291528.jpg" alt="">
+            <h2>Kersen chocolade mousse</h2>
+            <p>De klassieke chocolade mousse met een combinatie van zwarte kersen. Optimaal voor de herfst dagen...</p>
+               <img src="images/download.png" alt="" class="download">
+        </article>
+
+        <article>
+            <img src="images/386297.jpg" alt="">
+            <h2>Aardbeien cheesecake</h2>
+            <p>Verfrissend van smaak met een vleugje zoetigheid. Passend bij een high tea of brunch.</p>
+               <img src="images/download.png" alt="" class="download">
+        </article>
+        
+          <article>
+            <img src="images/stack-of-pancakes-with-strawberry-fruits-2280545.jpg" alt="">
+            <h2>American pancakes</h2>
+            <p>Pannenkoeken op zijn amerikaans, met een vleugje aardbeien en ahornisiroop.</p>
+               <img src="images/download.png" alt="" class="download" >
+        </article>
+    </main>
+
+    <!-- footer met navigatie element en copyrights -->
+    <footer>
+        <ul class="footer">
+            <li>Overzicht</li>
+            <li>Privacyverklaring</li>
+            <li>Cookies instellen</li>
+            <li>Algemene voorwaarden</li>
+            <li>Sitemap</li>
+        </ul>
+        <p>© Copyright 2019 | Soula Andrikopoulos | Frontend HER </p>
+    </footer>
+
+    <script src="download.js"></script>
+</body>
+
+</html>
+
+<!--
+https://css-tricks.com/snippets/javascript/showhide-element/ -->
